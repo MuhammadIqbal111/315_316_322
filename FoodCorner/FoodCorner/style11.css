@@ -1,0 +1,187 @@
+
+ 
+ 
+.clear{clear: both;}
+#mobile-view{display:none;}
+ #logo p{display:none;}
+
+/*@media screen and (max-width:991px){
+	#middle { margin-top:75px;}
+	#header .navigation ul li {padding: 40px 2px 10px;}
+	.right_bar_ul ul {padding-left: 40px !important;}
+	.left_bar_ul ul {padding-right: 40px !important;}
+	#header .navigation ul li a {
+	    font-size: 14px;
+	}
+}*/
+@media screen and (max-width:767px){
+	 #logo p{display:block;}
+	.container2{display:none;}
+	.spacedown h2{margin-top: 30%;}
+	.orng {
+    background: #f68e56;
+}
+
+.face {
+    background: #3b5998;
+}
+
+.twit {
+    background: #9e1414;
+}
+
+.insta {
+    background: #517fa4;
+}
+	.nav.navbar-nav li ul li
+	{
+		width:28.33% !important;
+		float:left;
+		padding:0px;
+	}
+	
+	nav ul ul {
+     display: block;
+     position: absolute;
+     /* top: 10px; */
+     width: 100%;
+     background-color: #222;
+}
+	h5.intro {
+    font-size: 7pt;
+    font-weight: 600;
+}
+	.nn
+	{
+		display:none;
+	}
+ 
+#main-nav ul li span.coming_soon {
+    bottom: 34px;
+    color: #f47323;
+    font-size: 14px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+#mobile-view{display:block;}
+.mobi-logo{display: block;margin-top: 6%;text-align: center;width: 100%; }
+.mobi-logo img {max-width:250px;text-align: center;}
+.mobi-logo .bg{top: 30px;width: 100%;z-index: 9; background:url('../img/body.html');}
+#header,.top_header,#top_header_bar,.footer{display:none!important;}
+#mobile-view{/*! background: #000000 none repeat scroll 0 0; */
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index:99999;
+	
+	}
+	.res-logo{position:absolute;width:100%;text-align:center;top: -30px;line-height: 0;}
+	.res-logo img{width:78%;}
+
+	.nav-toggle__inner {position: relative;z-index:9999;}
+	 
+
+	.nav-toggle__inner {
+		height: 1.5rem;
+		position: relative;
+		width: 3rem;
+		z-index:999;
+		margin-top:8px;
+	}
+
+
+	.active .nav-toggle .line-1 {
+		transform: translateY(7.811px) translateX(0px) rotate(45deg);
+		-webkit-transform: translateY(7.811px) translateX(0px) rotate(45deg);
+		-moz-transform: translateY(7.811px) translateX(0px) rotate(45deg);
+		-ms-transform: translateY(7.811px) translateX(0px) rotate(45deg);
+		-o-transform: translateY(7.811px) translateX(0px) rotate(45deg);
+	}
+	.nav-toggle .line.line-1 {
+		top: 0;
+	}
+	.nav-toggle .line {
+		background:#fff;
+		/* box-shadow:1px 1px 0px #000; */
+		display: block;
+		height: 0.3rem;
+		left: 0;
+		position: absolute;
+		transition: all 0.4s ease 0s;
+		width: 2rem;
+		border-radius:5px;
+	}
+
+
+	.active .nav-toggle .line-2 {
+		opacity: 0;
+	}
+	.nav-toggle .line.line-2 {
+		top: 50%;
+	}
+
+	.active .nav-toggle .line-3 {
+		transform: translateY(-6.811px) translateX(0px) rotate(-45deg);
+		-webkit-transform: translateY(-6.811px) translateX(0px) rotate(-45deg);
+		-moz-transform: translateY(-6.811px) translateX(0px) rotate(-45deg);
+		-ms-transform: translateY(-6.811px) translateX(0px) rotate(-45deg);
+		-o-transform: translateY(-6.811px) translateX(0px) rotate(-45deg);
+	}
+	.nav-toggle .line.line-3 {
+		top: 100%;
+	}
+
+	.nav-toggle {
+		background: none repeat scroll 0 0 rgba(0, 0, 0, 0);    
+	}
+	.nav-menu-btn {
+		cursor: pointer;
+		height: 35px;
+		margin-right: 5px;
+		width: 26px;
+	}
+	.nav-menu-btn {
+		 cursor: pointer;
+		 margin:auto;
+		 width:300px;
+		 background-size:100%;
+		 position:relative;
+	}
+ 
+	.navbar-collapse{border:none!important;box-shadow:none!important;max-height: 480px;}
+	.navbar-nav{margin:0!important;float:left;width:100%;background:#dce0e3;}
+	.navbar-inverse .navbar-nav > li > a{font-family: "Montserrat-Bold";text-decoration:none;font-size:25px;line-height:normal;color:#000!important;}
+ 
+	.navbar-inverse .navbar-nav > li{border-bottom:1px dashed #b8b8b8; text-align:center;}
+	.navbar-inverse .navbar-nav > li:last-child {border:none !important;}
+	.menu-title h1{font-size:45px!important;}
+	.menu-title h2{margin-top:-8px;font-size:18px!important;}
+	.res-logo h1{margin-bottom:0px;margin-top:55px;text-transform:uppercase;font-size:25px;font-family: "Montserrat-Bold";color:#fff;letter-spacing:3px;}
+	.navbar-header{padding: 5px 0;border-bottom: none;}
+	.navi
+	{
+		display:none;
+	}
+ 
+		
+	.nav.navbar-nav ul{margin:0px;padding:0px;list-style:none;}
+	.nav.navbar-nav li ul li{float: left;text-align: center;width: 33.33%; padding: 0px;}
+	.nav.navbar-nav li ul li a{/* padding: 10px 101px; */text-decoration:none;color:#fff;font-size:25px;}
+ 
+	.mobi-logo img{top: 13px; position: relative; max-width: 150px; z-index:9999; }
+}
+
+@media screen and (max-width:639px){
+ 
+}
+
+@media screen and (max-width:479px){
+ 
+}
+
+@media screen and (max-width:359px){
+.navbar-inverse .navbar-nav > li > a{font-size: 20px;padding: 8px 7% !important;}
+ 
+}
