@@ -303,9 +303,15 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\Menu.cshtml" />
     <Content Include="Views\Shared\Acount.cshtml" />
+    <Content Include="Views\Shared\_LayoutLogin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Loginui\css\" />
+    <Folder Include="Loginui\fonts\" />
+    <Folder Include="Loginui\images\" />
+    <Folder Include="Loginui\js\" />
+    <Folder Include="Loginui\vendor\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

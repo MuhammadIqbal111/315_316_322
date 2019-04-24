@@ -118,9 +118,11 @@ height: 'auto',
     <![endif]-->
 </head>
 <body>
+    @if (!Request.IsAuthenticated){
     <div class="main">
         <!--==============================header=================================-->
         <header>
+
             <div class="zerogrid">
                 <div class="col-full">
                     <div class="wrap-col">
@@ -223,5 +225,12 @@ height: 'auto',
             </div>
         </div>
     </footer>
+    }
+    else
+    {
+        <div>
+            @RenderPage("Login",null);
+        </div>
+    }
 </body>
 </html>
