@@ -9,7 +9,8 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using FoodCorner.Models;
-
+// Login Form implememtation
+// Account
 namespace FoodCorner.Controllers
 {
     [Authorize]
