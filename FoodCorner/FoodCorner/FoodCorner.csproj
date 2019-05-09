@@ -250,6 +250,11 @@
     <Content Include="js\sForm.js" />
     <Content Include="js\superfish.js" />
     <Content Include="js\tms-0.4.1.js" />
+    <Content Include="Loginui\css\main.css" />
+    <Content Include="Loginui\css\util.css" />
+    <Content Include="Loginui\images\bg-01.jpg" />
+    <Content Include="Loginui\images\favicon.ico" />
+    <Content Include="Loginui\js\main.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="bat\MailHandler-sub.php" />
@@ -307,10 +312,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Loginui\css\" />
     <Folder Include="Loginui\fonts\" />
-    <Folder Include="Loginui\images\" />
-    <Folder Include="Loginui\js\" />
     <Folder Include="Loginui\vendor\" />
   </ItemGroup>
   <ItemGroup>
